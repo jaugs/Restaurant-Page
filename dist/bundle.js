@@ -1,0 +1,1 @@
+(()=>{console.log("hello");const e=document.getElementById("content");!function(t,n){let d=document.createElement("div");d.setAttribute("id","heading"),text=document.createTextNode("The Prancing Pony - by Barliman Butterbur"),d.appendChild(text),e.appendChild(d)}()})();

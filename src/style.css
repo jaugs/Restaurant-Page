@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Tolkien.ttf') format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+body {
+    margin: 0;
+    padding: 0px
+}
+
+#wood {
+    width:fit-content;
+    height: 300px;
+    border: 5px solid black;
+}
+
+#ponyLogo {
+    height: 200px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background: url('./woodHeader.jpg');
+    background-size: 60% 78%;
+    background-position: center center;
+
+}
+
+.linkButton {
+    width: 175px;
+    height: 75px;
+    cursor: pointer;
+    background: url('./leather.jpg');
+    background-size: 60% 78%;
+    background-position: center center;
+    color: antiquewhite;
+    font-family: 'MyFont';
+    font-weight: 900;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.linkButton:hover {
+    filter: brightness(80%);
+    color: white;
+   
+}
+
+
+.linkButton:active {
+    color: white;
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+
+
+
+
+}
+#content {
+    background: url('./background.jpg');
+    background-size: 60% 78%;
+    background-position: center center;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+#content.menuContent, .menuContent {
+    background-size: 50% 25%;
+}
+
+.title {
+    font-family: 'MyFont';
+    font-size: 32px;
+    font-weight: 700;
+    width: 525px;
+    color: black;
+    /* border: 2px solid black; */
+    padding: 30px;
+    background: url('./parchment.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 40%) 20px 5px 10px, rgb(0 0 0 / 30%) 5px 10px 0px -10px, rgb(0 0 0 / 20%) 6px -5px 18px inset
+  
+}
+
+.card {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 5px;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.item {
+    font-family: 'MyFont';
+    font-size: 32px;
+    font-weight: 700;
+    width: 525px;
+    color: black;
+    padding: 30px;
+    background: url('./parchment.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 40%) 20px 5px 10px, rgb(0 0 0 / 30%) 5px 10px 0px -10px, rgb(0 0 0 / 20%) 6px -5px 18px inset
+  
+}
+
+.image {
+    width: 200px;
+}
